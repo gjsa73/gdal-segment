@@ -130,7 +130,7 @@ void SavePolygons( const std::vector< std::string > InFilenames,
                    std::vector< std::vector< LINE > >& linelists )
 {
 
-  CPLLocaleC oLocaleCForcer();
+  CPLLocaleC oLocaleCForcer;
   CPLErrorReset();
 
 #if GDALVER >= 2
