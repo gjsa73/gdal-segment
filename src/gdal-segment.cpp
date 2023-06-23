@@ -47,6 +47,7 @@
 #include "ogrsf_frmts.h"
 #include "cpl_string.h"
 #include "cpl_csv.h"
+#include <opencv2/imgproc/types_c.h>
 
 #include "gdal-segment.hpp"
 
